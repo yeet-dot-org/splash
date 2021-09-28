@@ -142,9 +142,7 @@ Grid
 }
 body {
   background-color: #0d080e /*#5E5E5E*/;
-  background-image: url("img/sunset.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-image: url("img/linus.gif");
   background-position: top;
   padding: 100% 0 0 0;
   margin: 0;
@@ -153,5 +151,56 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   float: right;
   margin: 80px 0 0 0;
-  max-width: ;
+  max-width: 420px;
+  padding: 20px;
+  z-index: 0;
+}
+
+.container {
+  z-index: 1;
+  margin: 10px 0;
+}
+.profile {
+  border-radius: 20px;
+  clear: right;
+  float: right;
+  height: 100px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+/* 
+=====================================
+Typography
+=====================================
+*/
+h1,
+p {
+  color: #ffffff;
+  font-family: sans-serif;
+  margin-bottom: 22px;
+}
+h1 {
+  text-shadow: 2px 2px #000000;
+  float: left;
+  font-size: 2.5em;
+  font-family: "Crete Round", sans-serif;
+}
+p {
+  clear: both;
+  color: #f1f1f1;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/*
+=====================================
+Footer
+=====================================
+*/
+footer a {
+  color: #ffffff;
+}
+i {
+  margin-right: 30px;
+  font-size: 30px;
 }
